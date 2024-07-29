@@ -1,5 +1,5 @@
 # E-commerce MERN Stack Project
 
-## Envirenment setup
+## 1 Envirenment setup
 
-## express server setup
+## 2 express server setup
