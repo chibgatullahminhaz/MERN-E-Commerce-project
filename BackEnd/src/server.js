@@ -1,7 +1,10 @@
-const express = require("express");
-const app = express();
+require('dotenv').config();
+const app = require("./app");
+const PORT = process.env.PORT || 5000;
 
 
-app.listen(5002,()=>{
-        console.log(`server is runnign at http://localhost:5002`)
-} )
+
+
+app.listen(PORT,()=>{
+    console.log(`Runnting at http://localhost:${PORT}`)
+})
